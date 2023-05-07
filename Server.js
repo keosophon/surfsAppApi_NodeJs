@@ -4,8 +4,8 @@ const bodyParser = require("body-parser");
 const sql = require("mssql");
 
 const config = {
-  user: "surfapplimited",
-  password: "TatianeLailaSophon123",
+  user: "********",
+  password: "*********",
   server: "surfapplimited.database.windows.net",
   database: "surfapp",
   port: 1433,
