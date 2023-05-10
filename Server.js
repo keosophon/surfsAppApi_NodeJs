@@ -29,7 +29,7 @@ const pool = new sql.ConnectionPool(config);
 const poolConnect = pool.connect();
 
 app.get("/", function (req, res) {
-  res.send("todo api works");
+  res.send("surfsAppApi works");
 });
 
 app.get("/users", async function (req, res) {
