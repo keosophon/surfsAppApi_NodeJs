@@ -16,7 +16,7 @@ const config = {
     enableArithAbort: true,
   },
   pool: {
-    min: 0,
+    min: 2,
     idleTimeoutMillis: 3000,
   },
 };
